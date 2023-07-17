@@ -1,0 +1,154 @@
+*,
+body {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: #1e2227;
+    color: #fff;
+    position: relative;
+    
+}
+
+
+nav {
+    background-color: #1e2227;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 8%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    z-index: 1;
+}
+.row{
+width: 100%;
+    position: absolute;
+    top: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75%;
+    
+}
+
+.nav-links {
+    display: flex;
+    column-gap: 20px;
+}
+
+nav .nav-links a {
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.logo {
+    cursor: pointer;
+    width: 120px;
+}
+.col-1{
+    padding-left: 8%;
+    width: 50%;
+}
+.col-2
+{
+    width: 50%;
+    
+
+    
+}
+.col-1 h1{
+    font-size: 70px;
+    line-height: 100px;
+    margin-bottom: 5px  ;
+}
+.price{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.button-red{
+    width: 200px;
+    height: 60px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+.button-red:hover{
+    background-color: #AA0505;
+}
+
+.col-2{
+    background-color: #FF0000;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.img-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-nike{
+    padding-top: 10%;
+    zoom: 30%;
+    transform: rotate(-20deg);
+    transition: all 0.7s;
+}
+.img-nike:hover{
+    transform: rotate(0deg);
+    transition: all 0.7s;
+
+
+}
+.main-col{
+    position: relative;
+}
+.opacity{
+    opacity: 0.3;
+    font-weight: bolder;
+    font-size: 94px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    z-index: 1;
+
+}
+
+.alt-col{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.box{
+    width: 70px;
+    height: 70px;
+    background-color: #B9C8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-img{
+    zoom: 6%;
+    transform: translate(300px,-200px) rotate(-20deg);
+transition: all 0.7s;
+}
+
+.box:hover .alt-img{
+transform: rotate(0deg);
+transition: all 0.7s;
+}
